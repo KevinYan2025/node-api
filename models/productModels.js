@@ -1,6 +1,7 @@
 const mongoose = require('mongoose')
 //this is a update from zhixiang branch
-const productSchema = new mongoose.Schema({
+const hello = 'sdsa'
+const productschema = new mongoose.Schema({
     name:{
         type:String,
         require:true
@@ -19,6 +20,5 @@ const productSchema = new mongoose.Schema({
     }
 })
 
-    const product =mongoose.model('product',productSchema)
-
+    const product =mongoose.model('product',productschema)
     module.exports=product
